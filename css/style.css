@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-navigation-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.main-title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 64px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.under-title {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 60px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.blog-article-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgba(104, 24, 208, 1);
+}
+
+.blog-article-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(22, 49, 82, 1);
+}
+
