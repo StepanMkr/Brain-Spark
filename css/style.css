@@ -37,3 +37,211 @@ body {
     color: rgba(22, 49, 82, 1);
 }
 
+.more {
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(240, 135, 60, 1);
+    text-decoration-line: underline;
+    background-color: transparent;
+    border: none;
+}
+
+.events-title {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 44px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.events-title-undertitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: rgba(240, 135, 60, 1);
+}
+
+.author-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.author-quote {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.succesful-buisinesman-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(134, 147, 164, 1);
+}
+
+.events-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.big-quote {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgba(104, 24, 208, 1);
+}
+
+.advantages-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.advantages-list-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.succes-historys-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.succes-historys-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.advantages-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.gallery-title {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 44px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.residents-title {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 44px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgba(104, 24, 208, 1);
+}
+
+.image-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.link-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(104, 24, 208, 1);
+}
+
+.link a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: rgba(240, 135, 60, 1);
+}
+
+.feature-list-item {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.feature-list-item span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.contacts-title {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 44px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.contacts-item-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: rgba(104, 24, 208, 1);
+}
+
+.adress address {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgba(22, 49, 82, 1);
+}
+
+.telephone a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-decoration: none;
+    color: rgba(22, 49, 82, 1);
+}
+
+.footer-list-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: var(--text-primary-inverse, rgba(255, 255, 255, 0.88)); /*ЧТО ЭТО*/
+}
+
+.footer-list-item a {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-decoration: none;
+    color: rgba(240, 238, 255, 1);
+}
+
+.copyright-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: rgba(240, 238, 255, 0.8);
+}
