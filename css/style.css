@@ -1,5 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.main-nav {
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 238, 255, 1);
 }
 
 .site-navigation-item {
@@ -7,6 +15,11 @@ body {
     font-weight: 400;
     line-height: 26px;
     color: rgba(22, 49, 82, 1);
+}
+
+.hero {
+    width: 1366px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .main-title {
@@ -21,6 +34,11 @@ body {
     font-weight: 300;
     line-height: 60px;
     color: rgba(22, 49, 82, 1);
+}
+
+.blog-articles {
+    width: 1366px;
+    background-color: rgba(240, 238, 255, 1);    ;
 }
 
 .blog-article-title {
@@ -46,6 +64,11 @@ body {
     text-decoration-line: underline;
     background-color: transparent;
     border: none;
+}
+
+.events{
+    width: 1366px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .events-title {
@@ -139,6 +162,11 @@ body {
     color: rgba(22, 49, 82, 1);
 }
 
+.gallery {
+    width: 1366px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
 .gallery-title {
     font-size: 34px;
     font-weight: 600;
@@ -158,6 +186,11 @@ body {
     font-weight: 600;
     line-height: 36px;
     color: rgba(104, 24, 208, 1);
+}
+
+.residents{
+    width: 1366px;
+    background-color: rgba(240, 238, 255, 1);
 }
 
 .image-description {
@@ -195,6 +228,11 @@ body {
     color: rgba(0, 0, 0, 1);
 }
 
+.contacts{
+    width: 1366px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
 .contacts-title {
     font-size: 34px;
     font-weight: 600;
@@ -222,6 +260,11 @@ body {
     line-height: 22px;
     text-decoration: none;
     color: rgba(22, 49, 82, 1);
+}
+
+.footer-container {
+    width: 1366px;
+    background-color: rgba(104, 24, 208, 1);
 }
 
 .footer-list-title {
