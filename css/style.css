@@ -8,6 +8,29 @@ body {
     display: flex;
     align-items: center;
     background-color: rgba(240, 238, 255, 1);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 48px;
+    padding-right: 48px; /*с падингами могут быть проблемы*/
+    align-items: flex-end;
+}
+
+.logo {
+    margin: 0;
+    margin-right: 60px;
+}
+
+.site-navigation{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 685px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigation a{
+    text-decoration: none;
 }
 
 .site-navigation-item {
@@ -15,6 +38,11 @@ body {
     font-weight: 400;
     line-height: 26px;
     color: rgba(22, 49, 82, 1);
+}
+
+.signin{
+    display: block;
+    margin-left: auto;
 }
 
 .hero {
