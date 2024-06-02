@@ -4,7 +4,7 @@ body {
 }
 
 .main-nav {
-    width: 1366px;
+    width: 1270px;
     display: flex;
     align-items: center;
     background-color: rgba(240, 238, 255, 1);
@@ -43,11 +43,20 @@ body {
 .signin{
     display: block;
     margin-left: auto;
+    padding: 12px;
+    border: 1px solid rgba(22, 49, 82, 0.3);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
 }
 
 .hero {
-    width: 1366px;
+    width: 1270px;
     background-color: rgba(255, 255, 255, 1);
+    padding: 50px 48px;
+}
+
+.main-hero-photo {
+    margin-bottom: 50px;
 }
 
 .main-title {
@@ -55,6 +64,9 @@ body {
     font-weight: 800;
     line-height: 64px;
     color: rgba(22, 49, 82, 1);
+    margin: 0;
+    margin-bottom: 12px;
+    text-align: end;
 }
 
 .under-title {
@@ -62,11 +74,30 @@ body {
     font-weight: 300;
     line-height: 60px;
     color: rgba(22, 49, 82, 1);
+    margin: 0;
+    text-align: end;
 }
 
 .blog-articles {
-    width: 1366px;
-    background-color: rgba(240, 238, 255, 1);    ;
+    width: 1270px;
+    background-color: rgba(240, 238, 255, 1);
+    padding: 100px 48px;
+}
+
+.blog-article {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.blog-article-3 {
+    margin: 0;
+}
+
+.blog-article-content {
+    width: 570px;
+    padding: 20px 20px 40px 20px;
 }
 
 .blog-article-title {
@@ -74,6 +105,8 @@ body {
     font-weight: 600;
     line-height: 36px;
     color: rgba(104, 24, 208, 1);
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 .blog-article-description {
@@ -81,6 +114,16 @@ body {
     font-weight: 400;
     line-height: 26px;
     color: rgba(22, 49, 82, 1);
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.blog-article-description-last {
+    margin: 0;
+}
+
+.blog-article-img {
+    margin-left: auto;
 }
 
 .more {
@@ -92,6 +135,7 @@ body {
     text-decoration-line: underline;
     background-color: transparent;
     border: none;
+    float: right;
 }
 
 .events{
