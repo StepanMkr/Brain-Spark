@@ -367,6 +367,7 @@ body {
     width: 435px;
     padding: 30px 35px 60px 35px;
     background-color: rgba(255, 255, 255, 1);
+    border-radius: 0px 20px 0px 20px;
 }
 
 .card-title {
@@ -429,7 +430,6 @@ body {
     margin: 0;
     padding: 0;
     list-style-position: inside;
-    display: flex;
 }
 
 .feature-list-item {
