@@ -343,10 +343,6 @@ body {
     gap: 30px;
 }
 
-.active-item {
-
-}
-
 .residents-title {
     font-size: 34px;
     font-weight: 600;
@@ -354,12 +350,23 @@ body {
     color: rgba(22, 49, 82, 1);
     margin: 0;
     margin-bottom: 60px;
+    text-align: center;
 }
 
 .cards {
     padding: 0;
     margin: 0;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.card {
+    width: 435px;
+    padding: 30px 35px 60px 35px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .card-title {
@@ -367,11 +374,22 @@ body {
     font-weight: 600;
     line-height: 36px;
     color: rgba(104, 24, 208, 1);
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    margin-bottom: 30px;
 }
 
 .residents{
-    width: 1366px;
+    width: 1270px;
+    padding: 100px 48px;
     background-color: rgba(240, 238, 255, 1);
+}
+
+.card-img {
+    margin-bottom: 16px;
 }
 
 .image-description {
@@ -379,6 +397,12 @@ body {
     font-weight: 400;
     line-height: 26px;
     color: rgba(22, 49, 82, 1);
+    margin: 0;
+}
+
+.link {
+    display: flex;
+    margin-bottom: 30px;
 }
 
 .link-text {
@@ -386,6 +410,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     color: rgba(104, 24, 208, 1);
+    margin: 0;
 }
 
 .link a {
@@ -393,6 +418,18 @@ body {
     font-weight: 600;
     line-height: 21px;
     color: rgba(240, 135, 60, 1);
+    margin-left: auto;
+}
+
+.cards-container {
+    padding: 0 90px;
+}
+
+.features-list {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    display: flex;
 }
 
 .feature-list-item {
@@ -400,6 +437,11 @@ body {
     font-weight: 300;
     line-height: 18px;
     color: rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+}
+
+.feature-list-item:last-child {
+    margin-bottom: 0;
 }
 
 .feature-list-item span {
