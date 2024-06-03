@@ -309,8 +309,9 @@ body {
 }
 
 .gallery {
-    width: 1366px;
+    width: 1270px;
     background-color: rgba(255, 255, 255, 1);
+    padding: 20px 48px 50px 48px;
 }
 
 .gallery-title {
@@ -318,6 +319,32 @@ body {
     font-weight: 600;
     line-height: 44px;
     color: rgba(22, 49, 82, 1);
+    margin: 0;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.active-photo {
+    justify-content: center;
+}
+
+.preview-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.active-item {
+
 }
 
 .residents-title {
