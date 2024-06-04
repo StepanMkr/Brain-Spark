@@ -451,9 +451,12 @@ body {
     color: rgba(0, 0, 0, 1);
 }
 
-.contacts{
-    width: 1366px;
+.contacts {
+    width: 1318px;
+    padding: 50px 0px 50px 48px;
     background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
 }
 
 .contacts-title {
@@ -461,6 +464,12 @@ body {
     font-weight: 600;
     line-height: 44px;
     color: rgba(22, 49, 82, 1);
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.contacts-container {
+    width: 609px;
 }
 
 .contacts-item-title {
@@ -468,6 +477,17 @@ body {
     font-weight: 500;
     line-height: 34px;
     color: rgba(104, 24, 208, 1);
+    margin: 0;
+    margin-right: 10px;
+}
+.adress-and-phone {
+    margin-bottom: 120px;
+}
+
+.adress {
+    width: 311px;
+    display: flex;
+    margin-bottom: 30px;
 }
 
 .adress address {
@@ -475,6 +495,13 @@ body {
     font-weight: 600;
     line-height: 22px;
     color: rgba(22, 49, 82, 1);
+    display: flex;
+    align-items: center;
+}
+
+.telephone {
+    display: flex;
+    width: 262px;
 }
 
 .telephone a {
@@ -483,11 +510,45 @@ body {
     line-height: 22px;
     text-decoration: none;
     color: rgba(22, 49, 82, 1);
+    display: flex;
+    align-items: center;
+}
+
+.social-media-title {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.social-media-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.social-media-list-item {
+    margin-right: 12px;    
+}
+
+.social-media-list-item:last-child {
+    margin: 0;    
 }
 
 .footer-container {
-    width: 1366px;
+    width: 1270px;
+    padding: 0px 48px;
     background-color: rgba(104, 24, 208, 1);
+    display: flex;
+}
+
+.footer-logo-container {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-right: 50px;
+}
+
+.footer-logo {
+    padding: 66px 75px;
 }
 
 .footer-list-title {
