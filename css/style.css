@@ -556,6 +556,8 @@ body {
     font-weight: 600;
     line-height: 22px;
     color: var(--text-primary-inverse, rgba(255, 255, 255, 0.88)); /*ЧТО ЭТО*/
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 .footer-list-item a {
@@ -564,6 +566,14 @@ body {
     line-height: 18px;
     text-decoration: none;
     color: rgba(240, 238, 255, 1);
+}
+
+.footer-list-item {
+    margin-bottom: 12px;
+}
+
+.footer-list-item:last-child {
+    margin: 0;
 }
 
 .copyright-text {
@@ -579,5 +589,22 @@ body {
 }
 
 .footer-lists {
+    width: 760px;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.copyright {
+    width: 760px;
+}
+
+.copyright-text {
+    margin: 0;
 }
