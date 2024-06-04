@@ -53,7 +53,7 @@ body {
     text-decoration: underline;
 }
 
-.signin{
+.signin {
     display: block;
     margin-left: auto;
     padding: 12px;
@@ -579,11 +579,31 @@ body {
 }
 
 .social-media-list-item {
-    margin-right: 12px;    
+    margin-right: 12px;  
+    border-radius: 4px;  
+}
+
+.social-media-list-item a {
+    display: block;
 }
 
 .social-media-list-item:last-child {
     margin: 0;    
+}
+
+.social-media-list-item img:hover {
+    background-color: rgba(240, 238, 255, 1);
+    border-radius: 4px;
+}
+
+.social-media-list-item img:focus {
+    background-color: rgba(104, 24, 208, 1);
+    border-radius: 4px;
+}
+
+.social-media-list-item img:active {
+    background-color: rgba(22, 49, 82, 1);
+    border-radius: 4px;
 }
 
 .footer-container {
