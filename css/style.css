@@ -572,3 +572,12 @@ body {
     line-height: 16.8px;
     color: rgba(240, 238, 255, 0.8);
 }
+
+.footer-column {
+    width: 920px;
+    padding: 60px 80px 40px 80px;
+}
+
+.footer-lists {
+    display: flex;
+}
