@@ -171,7 +171,7 @@ body {
     color: rgba(104, 24, 208, 1);
 }
 
-.events{
+.events {
     width: 932px;
     padding: 20px 217px;
     background-color: rgba(255, 255, 255, 1);
@@ -236,6 +236,7 @@ body {
     margin-left: 48px;
     margin-right: 48px;
     margin-bottom: 60px;
+    text-align: center;
 }
 
 .succesful-buisinesman {
@@ -243,6 +244,7 @@ body {
 }
 
 .succesful-buisinesman-photo {
+    display: flex;
     margin-bottom: 10px;
 }
 
@@ -423,6 +425,7 @@ body {
 }
 
 .card-img {
+    display: flex;
     margin-bottom: 16px;
 }
 
