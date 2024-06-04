@@ -40,6 +40,19 @@ body {
     color: rgba(22, 49, 82, 1);
 }
 
+.site-navigation a:hover {
+    color: rgba(66, 78, 92, 1);
+}
+
+.site-navigation a:focus {
+    color: rgba(104, 24, 208, 1);
+}
+
+.site-navigation a:active {
+    color: rgba(240, 135, 60, 1);
+    text-decoration: underline;
+}
+
 .signin{
     display: block;
     margin-left: auto;
@@ -136,6 +149,18 @@ body {
     background-color: transparent;
     border: none;
     float: right;
+}
+
+.more:hover {
+    color: rgba(240, 238, 255, 1);
+}
+
+.more:focus {
+    color: rgba(22, 49, 82, 1);
+}
+
+.more:active {
+    color: rgba(104, 24, 208, 1);
 }
 
 .events{
@@ -422,6 +447,21 @@ body {
     margin-left: auto;
 }
 
+.link a:hover {
+    color: rgba(151, 71, 255, 1);
+    text-decoration: none;
+}
+
+.link a:focus {
+    color: rgba(22, 49, 82, 1);
+    text-decoration: underline;
+}
+
+.link a:active {
+    color: rgba(104, 24, 208, 1);
+    text-decoration: underline;
+}
+
 .cards-container {
     padding: 0 90px;
 }
@@ -514,6 +554,18 @@ body {
     align-items: center;
 }
 
+.telephone a:hover {
+    color: rgba(151, 71, 255, 1);
+}
+
+.telephone a:focus {
+    color: rgba(104, 24, 208, 1);
+}
+
+.telephone a:active {
+    color: rgba(240, 135, 60, 1);
+}
+
 .social-media-title {
     margin: 0;
     margin-bottom: 30px;
@@ -574,6 +626,19 @@ body {
 
 .footer-list-item:last-child {
     margin: 0;
+}
+
+.footer-list-item a:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.footer-list-item a:focus {
+    color: rgba(240, 135, 60, 1);
+}
+
+.footer-list-item a:active {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
 }
 
 .copyright-text {
