@@ -366,14 +366,6 @@ body {
     gap: 30px;
 }
 
-.slider img {
-    display: flex;
-}
-
-.active-photo {
-    justify-content: center;
-}
-
 .preview-list {
     margin: 0;
     padding: 0;
@@ -382,8 +374,8 @@ body {
     gap: 30px;
 }
 
-.preview-list li {
-    position: relative; /* Добавляем относительное позиционирование для родительского элемента */
+ .preview-list li {
+    position: relative;
 }
 
 .active-item::before {
