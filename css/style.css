@@ -363,19 +363,33 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+}
+
+.active-photo {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+    object-fit: cover;
 }
 
 .preview-list {
-    margin: 0;
-    padding: 0;
     list-style: none;
+    padding: 0;
+    margin: 0 auto;
     display: flex;
+    justify-content: flex-start;
     gap: 30px;
+    width: 970px;
+    margin-bottom: 50px;
 }
 
- .preview-list li {
+.slider-preview-item {
     position: relative;
+}
+
+.slider-preview-item img {
+    display: block;
+    object-fit: cover;
 }
 
 .active-item::before {
