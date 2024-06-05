@@ -417,6 +417,7 @@ body {
     background-color: rgba(91, 133, 143, 0.67); 
     z-index: 2;
 }
+/*residents*/
 
 .residents-title {
     font-size: 34px;
@@ -541,7 +542,7 @@ body {
     line-height: 18px;
     color: rgba(0, 0, 0, 1);
 }
-
+/*residents end*/
 .contacts {
     width: 1318px;
     padding: 50px 0px 50px 48px;
