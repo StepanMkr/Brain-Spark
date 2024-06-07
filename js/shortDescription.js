@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
 document.addEventListener('DOMContentLoaded', function() {
     const moreButton = document.querySelector('.more-blog-article-2');
     moreButton.addEventListener('click', function() {
@@ -33,19 +32,3 @@ document.addEventListener('DOMContentLoaded', function() {
         targetParagraph.insertAdjacentHTML('afterend', '<p class="blog-article-description">Пока</p>');
     });
 });
-
-
-
-let previewList = document.querySelector('.preview-list');
-let images = document.querySelectorAll('.preview-list a');
-let mainPhoto = document.querySelector('.active-photo');
-
-for (let image of images) {
-    image.onclick = function(evt) {
-        evt.preventDefault();
-        mainPhoto.src = image.href;
-        let currentImage = document.querySelector('.active-item');
-        currentImage.classList.remove('active-item');
-        image.classList.add('active-item');
-    }
-}
