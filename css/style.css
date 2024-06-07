@@ -429,14 +429,10 @@ body {
     text-align: center;
 }
 
-.cards {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 60px;
+
+
+.cards-container {
+    
 }
 
 .card {
@@ -519,12 +515,21 @@ body {
 }
 
 .features-list {
-    margin: 0;
+    /* margin: 0;
     padding: 0;
-    list-style-position: inside;
+    list-style-position: inside; */
+
+    font-weight: 300;
+	padding-left: 21px;
+	padding-bottom: 0;
+	margin: 0;
+	width: 435px;
+	font-size: 14px;
+	line-height: 18px;
+	list-style-type: disc;
 }
 
-.feature-list-item {
+.features-list-item {
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
@@ -532,11 +537,11 @@ body {
     margin-bottom: 10px;
 }
 
-.feature-list-item:last-child {
+.features-list-item:last-child {
     margin-bottom: 0;
 }
 
-.feature-list-item span {
+.features-list-item span {
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
