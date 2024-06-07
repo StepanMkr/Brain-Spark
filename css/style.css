@@ -11,7 +11,7 @@ body {
     padding-top: 20px;
     padding-bottom: 40px;
     padding-left: 48px;
-    padding-right: 48px; /*с падингами могут быть проблемы*/
+    padding-right: 48px; 
     align-items: flex-end;
 }
 
@@ -21,7 +21,7 @@ body {
     margin-right: 60px;
 }
 
-.site-navigation{
+.site-navigation {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -30,7 +30,7 @@ body {
     justify-content: space-between;
 }
 
-.site-navigation a{
+.site-navigation a {
     text-decoration: none;
 }
 
@@ -157,7 +157,6 @@ body {
     background-color: transparent;
     border: none;
     float: right;
-
     display: none;
 }
 
@@ -168,7 +167,6 @@ body {
 }
   
 .blog-article.short .more {
-    /* Показываем элемент в свернутой статье */
     display: inline-block;
 }
 
@@ -417,7 +415,6 @@ body {
     background-color: rgba(91, 133, 143, 0.67); 
     z-index: 2;
 }
-/*residents*/
 
 .residents-title {
     font-size: 34px;
@@ -430,12 +427,6 @@ body {
 }
 
 .card {
-    /* width: 435px;
-    padding: 30px 35px 60px 35px;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 0px 20px 0px 20px;
-    margin-bottom: 60px; */
-
     display: inline-block;
 	width:435px;
 	background-color:#FFFFFF;
@@ -457,7 +448,7 @@ body {
     margin-bottom: 30px;
 }
 
-.residents{
+.residents {
     width: 1270px;
     padding: 100px 48px;
     background-color: rgba(240, 238, 255, 1);
@@ -512,9 +503,7 @@ body {
     text-decoration: underline;
 }
 
-.cards-container { /*!!!!!!!!!!!!!!!!!!!*/
-    /*padding: 0 90px;*/
-
+.cards-container {
     list-style: none;
 	margin:0;
 	padding: 0 90px;
@@ -522,11 +511,7 @@ body {
 	column-gap: 80px;
 }
 
-.features-list {/*!!!!!!!!!!!!!!!!!!!*/
-    /* margin: 0;
-    padding: 0;
-    list-style-position: inside; */
-
+.features-list {
     font-weight: 300;
 	padding-left: 21px;
 	padding-bottom: 0;
@@ -555,7 +540,7 @@ body {
     line-height: 18px;
     color: rgba(0, 0, 0, 1);
 }
-/*residents end*/
+
 .contacts {
     width: 1318px;
     padding: 50px 0px 50px 48px;
@@ -585,6 +570,7 @@ body {
     margin: 0;
     margin-right: 10px;
 }
+
 .adress-and-phone {
     margin-bottom: 120px;
 }
@@ -692,7 +678,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
-    color: var(--text-primary-inverse, rgba(255, 255, 255, 0.88)); /*ЧТО ЭТО*/
+    color: var(--text-primary-inverse, rgba(255, 255, 255, 0.88));
     margin: 0;
     margin-bottom: 12px;
 }
