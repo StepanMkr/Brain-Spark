@@ -522,10 +522,6 @@ body {
 	column-gap: 80px;
 }
 
-.resident-features {/*!!!!!!!!!!!!!!!!!!!*/
-
-}
-
 .features-list {/*!!!!!!!!!!!!!!!!!!!*/
     /* margin: 0;
     padding: 0;
@@ -535,7 +531,7 @@ body {
 	padding-left: 21px;
 	padding-bottom: 0;
 	margin: 0;
-	width: 435px;
+	width: 414px;
 	font-size: 14px;
 	line-height: 18px;
 	list-style-type: disc;
